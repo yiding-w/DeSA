@@ -56,7 +56,7 @@ if __name__ == '__main__':
         if data_source != 'strategyqa':
             dataset = datasets.load_dataset('RUC-NLPIR/FlashRAG_datasets', data_source)
         else:
-            dataset = datasets.load_dataset('json', data_files="/home/peterjin/mnt/data/strategyqa/test_correct.jsonl")
+            dataset = datasets.load_dataset('json', data_files="/path/to/your/data/strategyqa/test_correct.jsonl")
 
         if 'test' in dataset:
             print(f'Using the {data_source} test dataset...')

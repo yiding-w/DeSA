@@ -1,4 +1,4 @@
-WORK_DIR=/scratch/mrm2vx/Search-R1
+WORK_DIR=/path/to/your/search-r1
 LOCAL_DIR=$WORK_DIR/data/nq_hotpotqa_query_generation_sft
 
 ## process multiple dataset search format train file

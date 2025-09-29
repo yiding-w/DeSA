@@ -11,7 +11,12 @@ def safe_json(obj):
     raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
 
 # 1. 加载 parquet 文件
-df = pd.read_parquet('/scratch/mrm2vx/Search-R1/data/nq_hotpotqa_query_generation_sft/train.parquet')
+import pandas as pd
+import json
+
+# assume you have downloaded the nq+hotpotqa query generation data, check https://huggingface.co/datasets/PeterJinGo/nq_hotpotqa_query_generation_sft
+# change this to your file path
+df = pd.read_parquet('/path/to/your/data/nq_hotpotqa_query_generation_sft/train.parquet')
 
 # 2. 初始化 vLLM 模型
 llm = LLM(model='Qwen/Qwen2.5-3B-Instruct',gpu_memory_utilization=0.80)  # 你可以换成自己的 checkpoint

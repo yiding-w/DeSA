@@ -1,5 +1,5 @@
 
-index=/home/peterjin/mnt/index/wiki-18/e5_Flat.index
+index=/path/to/your/index/wiki-18/e5_Flat.index
 
 split -b 40G $index part_
 

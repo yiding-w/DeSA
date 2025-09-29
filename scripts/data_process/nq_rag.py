@@ -58,9 +58,9 @@ if __name__ == '__main__':
     parser.add_argument('--hdfs_dir', default=None)
     parser.add_argument('--template_type', type=str, default='base')
     parser.add_argument('--topk', type=int, default=3)
-    parser.add_argument('--corpus_path', type=str, default='/home/peterjin/mnt/data/retrieval-corpus/wiki-18.jsonl')
-    parser.add_argument('--train_retrieval_cache', type=str, default='/home/peterjin/rag_retrieval_cache/nq/e5_train_retrieval_cache_2048.json')
-    parser.add_argument('--test_retrieval_cache', type=str, default='/home/peterjin/rag_retrieval_cache/nq/e5_test_retrieval_cache_10000.json')
+    parser.add_argument('--corpus_path', type=str, default='/path/to/your/data/retrieval-corpus/wiki-18.jsonl')
+    parser.add_argument('--train_retrieval_cache', type=str, default='/path/to/your/cache/nq/e5_train_retrieval_cache_2048.json')
+    parser.add_argument('--test_retrieval_cache', type=str, default='/path/to/your/cache/nq/e5_test_retrieval_cache_10000.json')
 
     args = parser.parse_args()
 

@@ -1,5 +1,5 @@
 
-save_path=/home/peterjin/debug_cache
+save_path=/path/to/your/cache
 
 python download.py --savepath $savepath
 
