@@ -89,11 +89,6 @@ conda activate desa
 bash desa_scripts/train_qwen3b_stage1.sh
 ```
 
-**Key Features of Stage 1:**
-- Search query generation optimization
-- Retrieval relevance maximization
-- Search strategy learning
-
 ### Stage 2: Outcome Optimization
 
 In the second stage, we train the answering capabilities using the search-enhanced model from Stage 1:
@@ -106,11 +101,6 @@ In the second stage, we train the answering capabilities using the search-enhanc
 conda activate desa
 bash desa_scripts/train_qwen3b_stage2.sh
 ```
-
-**Key Features of Stage 2:**
-- Answer generation from retrieved content
-- Information synthesis and reasoning
-- Factual accuracy optimization
 
 ### Switching Reward Functions Between Stages
 
