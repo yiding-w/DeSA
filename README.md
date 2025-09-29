@@ -173,16 +173,15 @@ bash desa_scripts/train_qwen3b_stage2.sh
 
 ## Results
 
-DeSA demonstrates significant improvements over traditional outcome-only reward methods:
+DeSA demonstrates significant improvements over traditional outcome-only reward single-stage method:
 
 **Key Findings:**
 - **Improved Search Quality**: Stage 1 training leads to more effective search queries and better retrieval performance
-- **Enhanced Answer Accuracy**: Stage 2 training with search-specific rewards improves answer correctness and completeness
-- **Better Convergence**: Decoupled training shows more stable learning curves compared to joint training approaches
+- **Enhanced Answer Accuracy**: Stage 2 training with answer rewards improves answer correctness and completeness
 
 **Performance Metrics:**
+- Better search quality
 - Superior performance on question-answering benchmarks
-- Better recall quality
 
 ![performance](public/performance.png)
 
