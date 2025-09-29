@@ -4,7 +4,7 @@
 
 Our method addresses the limitations of traditional outcome-based reward systems by providing more granular feedback during both the search and answering phases, leading to improved performance in question-answering tasks.
 
-![single-turn](public/main.pdf)
+![main](public/main.png)
 
 ## Overview
 
@@ -261,14 +261,6 @@ The implementation leverages [veRL](https://github.com/volcengine/verl) for rein
 
 If you find DeSA useful in your research, please cite:
 
-```bibtex
-@article{desa2025,
-  title={Beyond Outcome Reward: Decoupling Search and Answering (DeSA) Improves LLM Agents},
-  author={[Your Author Names]},
-  journal={arXiv preprint arXiv:[Your ArXiv ID]},
-  year={2025}
-}
-```
 
 We also acknowledge the foundational work of Search-R1:
 
