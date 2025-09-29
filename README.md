@@ -29,7 +29,6 @@ This decoupled approach allows for more targeted training and improved performan
     - [Switching Reward Functions Between Stages](#switching-reward-functions-between-stages)
   - [Quick Start](#quick-start)
   - [Results](#results)
-  - [Inference](#inference)
   - [Use your own dataset](#use-your-own-dataset)
     - [QA data](#qa-data)
     - [Corpora](#corpora)
@@ -186,23 +185,6 @@ DeSA demonstrates significant improvements over traditional outcome-only reward 
 - Better recall quality
 
 ![performance](public/performance.png)
-
-## Inference
-
-Test your trained DeSA model with custom questions:
-
-(1) Launch a local retrieval server.
-```bash
-conda activate retriever
-bash retrieval_launch.sh
-```
-
-(2) Run inference with your trained DeSA model.
-```bash
-conda activate desa
-python infer.py
-```
-You can modify the ```question``` on line 7 to test different queries.
 
 ## Use your own dataset
 
