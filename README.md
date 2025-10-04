@@ -4,6 +4,9 @@
 
 ![main](public/main.png)
 
+DeSA checkpoints are available on Hugging Face:
+- [DeSA](https://huggingface.co/collections/Blancokdb/desa-68da48b1b5f4b53cc25195c0)
+
 ## Overview
 
 DeSA introduces a two-stage training approach that decouples the search and answering phases in RAG systems:
@@ -13,15 +16,12 @@ DeSA introduces a two-stage training approach that decouples the search and answ
 
 This decoupled approach allows for more targeted training and improved performance compared to traditional outcome-only reward methods.
 
-### Model Checkpoints
-DeSA checkpoints are available on Hugging Face:
-- [DeSA](https://huggingface.co/collections/Blancokdb/desa-68da48b1b5f4b53cc25195c0)
+
 
 ## Table of Contents
 
 - [Beyond Outcome Reward: Decoupling Search and Answering (DeSA) Improves LLM Agents](#beyond-outcome-reward-decoupling-search-and-answering-desa-improves-llm-agents)
   - [Overview](#overview)
-    - [Model Checkpoints](#model-checkpoints)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Main environment](#main-environment)
