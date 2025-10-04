@@ -1,8 +1,6 @@
 # Beyond Outcome Reward: Decoupling Search and Answering (DeSA) Improves LLM Agents
 
-**DeSA** (Decoupling Search and Answering) is a novel two-stage training framework that improves LLM agents by separating the search and answering phases during training. This approach is built upon the [Search-R1](https://github.com/PeterGriffinJin/Search-R1) codebase, which provides a reinforcement learning framework for training reasoning-and-searching interleaved LLMs.
-
-Our method addresses the limitations of traditional outcome-based reward systems by providing more granular feedback during both the search and answering phases, leading to improved performance in question-answering tasks.
+**DeSA** (Decoupling Search and Answering) is a novel two-stage training framework that improves LLM agents by separating the search and answering phases during training. This approach provides more granular feedback during both the search and answering phases, leading to improved performance in question-answering tasks.
 
 ![main](public/main.png)
 
@@ -15,10 +13,15 @@ DeSA introduces a two-stage training approach that decouples the search and answ
 
 This decoupled approach allows for more targeted training and improved performance compared to traditional outcome-only reward methods.
 
+### Model Checkpoints
+DeSA checkpoints are available on Hugging Face:
+- [DeSA](https://huggingface.co/collections/Blancokdb/desa-68da48b1b5f4b53cc25195c0)
+
 ## Table of Contents
 
 - [Beyond Outcome Reward: Decoupling Search and Answering (DeSA) Improves LLM Agents](#beyond-outcome-reward-decoupling-search-and-answering-desa-improves-llm-agents)
   - [Overview](#overview)
+    - [Model Checkpoints](#model-checkpoints)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Main environment](#main-environment)
