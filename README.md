@@ -1,11 +1,20 @@
+<p align="center">
+  <a href="https://arxiv.org/abs/2510.04695" title="Paper">
+    <img src="https://img.shields.io/badge/arXiv-2510.04695-b31b1b.svg?logo=arxiv&style=for-the-badge" alt="arXiv Paper"/>
+  </a>
+  <a href="https://huggingface.co/collections/Blancokdb/desa-68da48b1b5f4b53cc25195c0" title="Hugging Face Model">
+    <img src="https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&style=for-the-badge" alt="Hugging Face"/>
+  </a>
+</p>
+
 # Beyond Outcome Reward: Decoupling Search and Answering (DeSA) Improves LLM Agents
 
 **DeSA** (Decoupling Search and Answering) is a novel two-stage training framework that improves LLM agents by separating the search and answering phases during training. This approach provides more granular feedback during both the search and answering phases, leading to improved performance in question-answering tasks.
 
 ![main](public/main.png)
 
-DeSA checkpoints are available on Hugging Face:
-- [DeSA](https://huggingface.co/collections/Blancokdb/desa-68da48b1b5f4b53cc25195c0)
+<!-- DeSA checkpoints are available on Hugging Face:
+- [DeSA](https://huggingface.co/collections/Blancokdb/desa-68da48b1b5f4b53cc25195c0) -->
 
 ## Overview
 
@@ -235,6 +244,17 @@ The implementation leverages [veRL](https://github.com/volcengine/verl) for rein
 
 If you find DeSA useful in your research, please cite:
 
+```bibtext
+@misc{wang2025outcomerewarddecouplingsearch,
+      title={Beyond Outcome Reward: Decoupling Search and Answering Improves LLM Agents}, 
+      author={Yiding Wang and Zhepei Wei and Xinyu Zhu and Yu Meng},
+      year={2025},
+      eprint={2510.04695},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2510.04695}, 
+}
+```
 
 We also acknowledge the foundational work of Search-R1:
 
