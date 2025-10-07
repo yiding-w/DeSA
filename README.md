@@ -1,3 +1,7 @@
+
+
+# Beyond Outcome Reward: Decoupling Search and Answering (DeSA) Improves LLM Agents
+
 <p align="center">
   <a href="https://arxiv.org/abs/2510.04695" title="Paper">
     <img src="https://img.shields.io/badge/arXiv-2510.04695-b31b1b.svg?logo=arxiv&style=for-the-badge" alt="arXiv Paper"/>
@@ -6,8 +10,6 @@
     <img src="https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&style=for-the-badge" alt="Hugging Face"/>
   </a>
 </p>
-
-# Beyond Outcome Reward: Decoupling Search and Answering (DeSA) Improves LLM Agents
 
 **DeSA** (Decoupling Search and Answering) is a novel two-stage training framework that improves LLM agents by separating the search and answering phases during training. This approach provides more granular feedback during both the search and answering phases, leading to improved performance in question-answering tasks.
 
