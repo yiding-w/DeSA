@@ -247,14 +247,11 @@ The implementation leverages [veRL](https://github.com/volcengine/verl) for rein
 If you find DeSA useful in your research, please cite:
 
 ```bibtext
-@misc{wang2025outcomerewarddecouplingsearch,
-      title={Beyond Outcome Reward: Decoupling Search and Answering Improves LLM Agents}, 
-      author={Yiding Wang and Zhepei Wei and Xinyu Zhu and Yu Meng},
-      year={2025},
-      eprint={2510.04695},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2510.04695}, 
+@article{wang2025beyond,
+  title={Beyond Outcome Reward: Decoupling Search and Answering Improves LLM Agents},
+  author={Wang, Yiding and Wei, Zhepei and Zhu, Xinyu and Meng, Yu},
+  journal={arXiv preprint arXiv:2510.04695},
+  year={2025}
 }
 ```
 
